@@ -200,11 +200,12 @@ class _SignInPageState extends State<SignInPage> {
                                     color: Colors.grey.shade400, fontSize: 16),
                               ),
                               const SizedBox(width: 5),
-                              const Text(
-                                "Sign Up",
-                                style: TextStyle(
-                                  color: Color(0xff077f7b),
-                                  fontSize: 16
+                              GestureDetector(
+                                onTap: () {},
+                                child: const Text(
+                                  "Sign Up",
+                                  style: TextStyle(
+                                      color: Color(0xff077f7b), fontSize: 16),
                                 ),
                               )
                             ],
