@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get_storage/get_storage.dart';
 import 'package:nosql_database/pages/home_page.dart';
 import 'package:nosql_database/pages/signin_page.dart';
 import 'package:nosql_database/pages/singup_page.dart';
 
-void main() {
+void main() async {
+  await GetStorage.init();
   runApp(const MyApp());
 }
 
